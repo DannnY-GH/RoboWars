@@ -1,0 +1,3 @@
+rsShot RCDATA "Win32\\Debug\\sounds\\laser.wav"
+rsPongBlip1 RCDATA "Win32\\Debug\\sounds\\pong-blip1.wav"
+rsPongBlip2 RCDATA "Win32\\Debug\\sounds\\pong-blip2.wav"

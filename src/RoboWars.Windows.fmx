@@ -1,0 +1,8 @@
+inherited MainForm_Windows: TMainForm_Windows
+  DesignerMasterStyle = 0
+  inherited Image1: TImage
+    MultiResBitmap.Height = 94
+    MultiResBitmap.Width = 265
+    MultiResBitmap.LoadSize = 1
+  end
+end

@@ -1,0 +1,23 @@
+object FRCongratScreen: TFRCongratScreen
+  Align = Client
+  Size.Width = 647.000000000000000000
+  Size.Height = 411.000000000000000000
+  Size.PlatformDefault = False
+  object Rectangle1: TRectangle
+    Align = Client
+    Fill.Color = x82000000
+    Size.Width = 647.000000000000000000
+    Size.Height = 411.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object txCongrat: TText
+    Align = Center
+    Size.Width = 432.000000000000000000
+    Size.Height = 321.000000000000000000
+    Size.PlatformDefault = False
+    Text = 'Player'
+    TextSettings.Font.Size = 50.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000000000004000000}
+    TextSettings.FontColor = claGreenyellow
+  end
+end

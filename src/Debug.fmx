@@ -1,0 +1,122 @@
+object frDebug: TfrDebug
+  Size.Width = 240.000000000000000000
+  Size.Height = 662.000000000000000000
+  Size.PlatformDefault = False
+  object FL: TFlowLayout
+    Align = Client
+    Size.Width = 240.000000000000000000
+    Size.Height = 662.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Justify = Left
+    JustifyLastLine = Left
+    FlowDirection = RightToLeft
+    object txTs: TText
+      Size.Width = 177.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claAqua
+    end
+    object txVx: TText
+      Position.Y = 57.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claAqua
+    end
+    object txVy: TText
+      Position.Y = 114.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claAqua
+    end
+    object txAx: TText
+      Position.Y = 171.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claAqua
+    end
+    object txAy: TText
+      Position.Y = 228.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claAqua
+    end
+    object txT1: TText
+      Position.Y = 285.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claAqua
+    end
+    object txT2: TText
+      Position.Y = 342.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claAqua
+    end
+    object txT3: TText
+      Position.Y = 399.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claAqua
+    end
+    object txT4: TText
+      Position.Y = 456.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claAqua
+    end
+    object txX: TText
+      Position.Y = 513.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claAqua
+    end
+    object txY: TText
+      Position.Y = 570.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claAqua
+    end
+    object txT: TText
+      Position.Y = 627.000000000000000000
+      Size.Width = 177.000000000000000000
+      Size.Height = 57.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.Font.Size = 15.000000000000000000
+      TextSettings.Font.StyleExt = {00070000000000000004000000}
+      TextSettings.FontColor = claAqua
+    end
+  end
+end
