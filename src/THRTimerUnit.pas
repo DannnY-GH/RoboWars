@@ -9,7 +9,6 @@ uses
 type
    THRTimer = class;
 
-     // отдельный поток для нашего таймера
      TTimerThread = class(TThread)
      private
        { Private declarations }
@@ -18,7 +17,6 @@ type
        procedure Execute; override;
      end;
 
-     // сам таймер
      THRTimer = class(TComponent)
      private
        FInterval: Double;
@@ -79,7 +77,7 @@ begin
    if FEnabled = Value then Exit
       else FEnabled := Value;
 
-   if FEnabled then  // включили таймер
+   if FEnabled then
    begin
       StartTimer;
       FThread := TTimerThread.Create(false);
@@ -87,7 +85,7 @@ begin
       FThread.FreeOnTerminate := true;
       FThread.Priority := FPriority;
    end
-   else          // выключили таймер
+   else
       FThread.Terminate;
 end;
 
@@ -124,7 +122,7 @@ procedure THRTimer.Timer;
 begin
   if not (csDesigning in ComponentState) then
     if Assigned(FOnTimer) then FOnTimer(Self);
-    //вот сюда свой код вставляешь
+    //ГўГ®ГІ Г±ГѕГ¤Г  Г±ГўГ®Г© ГЄГ®Г¤ ГўГ±ГІГ ГўГ«ГїГҐГёГј
    MainForm.TestTank.FBodyImg.Position.Point :=
      PointF(MainForm.TestTank.FBodyImg.Position.X + 0.5,
      MainForm.TestTank.FBodyImg.Position.Y);
@@ -133,12 +131,11 @@ end;
 // TTimerThread
 procedure TTimerThread.Execute;
 var
-  StartT: Double;        // начальное время отсчёта
-  TickCounter: Integer;  // количество "тиков" таймера
+  StartT: Double;
+  TickCounter: Integer;
 begin
   TickCounter := 1;
   StartT := FOwner.ReadTimer;
-  // пока не завершили поток или программу
   while not (Terminated or Application.Terminated) do
   begin
     if (FOwner.ReadTimer - StartT) >= FOwner.FInterval * TickCounter then
